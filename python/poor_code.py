@@ -29,10 +29,7 @@ def locateTopEven(arr):
 # 
 # XOR table: https://en.wikipedia.org/wiki/Exclusive_or
 def evaluate_conditions(a: bool, b: bool, c: int):
-    if c != 0:
-        return (a ^ b)
-    
-    return False
+    return (a ^ b) if c !=0 else False
 
 def print_stats(arr):
     
